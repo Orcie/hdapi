@@ -1,5 +1,5 @@
 <?php
-
+// usage <file> <hdapitoken> <fieldnumber> fieldnumber is optional
 	$url = 'https://app.hellodialog.com/api/fields/.$argv[2]/?token='.$argv[1];
 
 	$data = file_get_contents($url);
